@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.card, .card-body, .card-title, .card-text {
+  font-family: 'Poppins', sans-serif;
+}
+/* עיצוב כללי לקופסה */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* אפקט בעת ריחוף */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* תמונת עוגה */
+  .cake-image {
+    width: 100%;
+    
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* גוף הכרטיס */
+  .card-body {
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+/* צבע שם העוגה */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #e78f8e; /* ורוד אפרסקי */
+}
+  
+/* תיאור */
+.card-text {
+  font-size: 0.95rem;
+  color: #5e3d31; /* חום־שוקולד רך */
+}
+  
+  /* מחיר */
+  .card-text strong {
+    color: #d35400;
+  }
+  .product-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+  }

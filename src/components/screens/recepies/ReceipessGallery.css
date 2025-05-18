@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.recepies-gallery-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: 'Varela Round', sans-serif;
+  color: #4e3b30;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #5e3d31;
+}
+
+.recepies-circle-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.circle-container {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 3px solid #fbd4c6;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; /* נוספה אנימציה */
+  }
+  
+  .circle-container:hover {
+    transform: scale(1.1); /* הגדלה */
+  }
+  
+  .circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .circle-image:hover {
+    transform: scale(1.1);
+  }
+  
+.section-divider {
+  height: 2px;
+  width: 40%;
+  background-color: #ffc4b4;
+  margin: 30px auto;
+  border-radius: 10px;
+}

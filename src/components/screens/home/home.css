@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%; /* Adjust this value as needed */
+    padding: 10px;
+    background-color: #f8f9fa; /* Optional - background color for sidebar */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.main-content {
+    width: 75%; /* Adjust this value as needed */
+    padding: 10px;
+}
+.sidebar {
+    width: 25%; /* Adjust this value as needed */
+    padding: 10px;
+    background-color: #f8f9fa; /* Optional - background color for sidebar */
+    border: 1px solid #ddd; /* Light gray border */
+    height: 100vh; /* Full height of the viewport */
+    overflow-y: auto; /* Allows scrolling if content is too long */
+}
+
+.cart-header {
+    font-size: 1.5em; /* Larger font for header */
+    margin-bottom: 10px; /* Space below header */
+    text-align: center; /* Center the header */
+    font-weight: bold; /* Bold text */
+}
+
+.small-cart-product {
+    border: 1px solid #ccc; /* Border for individual products */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between products */
+    padding: 5px; /* Padding inside the product */
+    background-color: white; /* Background color for each product */
+}
+.empty-cart-message {
+    text-align: center; /* Center the message */
+    font-size: 1.2em; /* Font size for the message */
+    color: #999; /* Light gray color for the message */
+    margin-top: 20px; /* Space from the top */
+}
+.product-col {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 10px; /* אם רוצים גם רווח אנכי קטן */
+  }
+
+  

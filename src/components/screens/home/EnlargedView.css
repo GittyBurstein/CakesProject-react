@@ -1,0 +1,56 @@
+/* עיצוב לתמונה */
+.enlarged-view-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* עיצוב לטקסט המרכזי */
+  .enlarged-view-container .cake-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  /* עיצוב לטקסט המשני */
+  .enlarged-view-container .cake-description {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* עיצוב למחיר */
+  .enlarged-view-container .cake-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  /* עיצוב לכמות */
+  .enlarged-view-container .cake-amount {
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* עיצוב לכפתור */
+  .enlarged-view-container .invite-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enlarged-view-container .invite-button:hover {
+    background-color: #1565c0;
+  }

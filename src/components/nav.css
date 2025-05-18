@@ -1,0 +1,23 @@
+/* עיצוב הניווט */
+.navbar {
+    position: sticky; /* הופך את הניווט לדביק */
+    top: 0; /* מוודא שהוא נשאר בחלק העליון */
+    z-index: 1000; /* מבטיח שהוא יישאר מעל כל האלמנטים האחרים */
+    background-color: #6e6f70; /* צבע רקע אפור כהה */
+    color: white; /* צבע טקסט */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* הוספת צל קל */
+  }
+
+/* עיצוב הקישורים */
+.navbar .nav-link {
+  color: white; /* צבע טקסט של הקישורים */
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.navbar .nav-link:hover {
+  color: #d5b39f; /* צבע טקסט בעת ריחוף */
+}
+body {
+    padding-top: 90px; /* גובה הניווט */
+  }

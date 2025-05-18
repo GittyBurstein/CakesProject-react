@@ -1,0 +1,51 @@
+
+
+/* Card styling */
+.card {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+/* Image styling */
+.product-image {
+    width: 100%; /* Full width of container */
+    height: 200px; /* Fixed height, adjust as necessary */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-top-left-radius: 5px; /* Match card border radius */
+    border-top-right-radius: 5px;
+}
+
+/* Flex layout for buttons */
+.d-flex {
+    display: flex;
+}
+
+/* Vertical button alignment */
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-end {
+    align-items: flex-end; /* Right align buttons */
+}
+
+/* Button styling */
+.btn {
+    width: 40px; /* Fixed width for buttons */
+    margin: 2px 0; /* Space between buttons */
+}
+
+.btn-outline-success {
+    color: #28a745; /* Green color for plus button */
+    border-color: #28a745; /* Border color */
+}
+
+.btn-outline-danger {
+    color: #dc3545; /* Red color for minus button */
+    border-color: #dc3545; /* Border color */
+}

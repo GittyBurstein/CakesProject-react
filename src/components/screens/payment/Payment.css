@@ -1,0 +1,34 @@
+.gradient-custom {
+      background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+        linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+        linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+        radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+        radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+      background-blend-mode: screen, color-dodge, overlay, difference, normal;
+    }
+    .MDBBtn {
+        outline: none; /* מניעת מסגרת בעת לחיצה */
+        box-shadow: none; /* מניעת צל בעת לחיצה */
+        transition: all 0.2s ease-in-out; /* מעבר חלק */
+        white-space: nowrap; 
+      }
+      
+      .MDBBtn:active {
+        transform: scale(0.98); /* אפקט קל בעת לחיצה */
+      }
+      .input-container {
+        position: relative;
+      }
+      
+      .floating-message {
+        position: absolute;
+        top: -25px;
+        left: 10px;
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+      }
